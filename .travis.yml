@@ -17,11 +17,11 @@
   "deploy": [
     {
       "provider": "heroku",
-      "edge": true,
       "strategy": "api",
       "app": "bricce-test-devops",
       "api_key": {
         "secure": "$HEROKU_API_KEY"
+      edge: true
       }
     }
   ]
