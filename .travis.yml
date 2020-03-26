@@ -21,5 +21,5 @@ deploy:
   provider: heroku
   edge: true
   api-key: 
-    secure: $HEROKU_API_KEY
+    secure: 5c92f414-dd30-4d28-be7f-a4580d5f8e09
   app: bricce-test-devops
